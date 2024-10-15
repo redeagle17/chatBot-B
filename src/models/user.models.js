@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
-import { Chat } from "./chat.models";
+import { randomUUID } from "crypto";
 
 const userSchema = new mongoose.Schema({
+    user_id: {
+        type: String,
+        default: randomUUID,
+    },
     name: {
         type: String,
         required: true,
@@ -13,8 +17,9 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-    },
-    chats: [Chat],
+    }
+}, {
+    timestamps: true
 });
 
 export const User = mongoose.model("User", userSchema);
