@@ -16,6 +16,9 @@
   "author": "Ankur",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
     "nodemon": "^3.1.7",
     "prettier": "^3.3.3"
   }
