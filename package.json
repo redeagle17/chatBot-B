@@ -1,0 +1,17 @@
+{
+  "name": "chatbot-b",
+  "version": "1.0.0",
+  "description": "A chatbot like gemini, chatgpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "expressjs",
+    "mongodb",
+    "javascript"
+  ],
+  "author": "Ankur",
+  "license": "ISC"
+}
